@@ -1,0 +1,16 @@
+
+.table{
+    width: 600px;
+    background-color: transparent;
+    border-radius: 50px;
+    margin: 30px 0;
+    position:relative;
+    top: 80px; 
+    right: 600px;
+    left: 80px;
+    background: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 7px 25px #999;
+}

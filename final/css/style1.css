@@ -1,0 +1,227 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero
+{
+    height: 120%;
+    width: 100%;
+    background-image: url("sfondi5.jpeg");
+    background-position: center;
+    background-size: absolute;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.from-box
+{
+ width: 380px;
+    height: 370px;
+    position: relative;
+    margin: 6% auto;
+    background: white;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 1px #0d8bf2;
+    border: 2px solid #0d8bf2;
+}
+.from-box1
+{
+ width: 380px;
+    height: 530px;
+    position: relative;
+    margin: 6% auto;
+    background: white;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 1px #0d8bf2;
+    border: 2px solid #0d8bf2;
+}
+.button-box
+{
+    width: 220px;
+    margin: 30px auto;
+    position: relative;
+    box-shadow: 0 0 15px 1px #0d8bf2;
+    border-radius: 30px;
+    border: 4px solid #0d8bf2;
+}
+.toggle-btn
+{
+    padding: 12px 30.56px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    border-radius: 30 px;
+    margin: auto;
+}
+
+.input-group
+{
+    top: 120px;
+    position: absolute;
+    width: 280px;
+
+}
+.input-field
+{
+    width: 100%;
+    padding: 5px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid mediumseagreen;
+    background: transparent;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.submit-btn
+{
+    width: 62%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 5px 1px #0d8bf2;
+    border-radius: 30px;
+    border: 2px solid #0d8bf2;
+}
+.submit-btn:hover, .submit-btn1:hover, .submit-btn2:hover, .submit-btn3:hover{
+    background-color: slategray;
+    color:white;
+}
+.submit-btn2
+{
+    width: 40%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 5px 1px #0d8bf2;
+    border-radius: 30px;
+    border: 2px solid #0d8bf2;
+}
+.submit-btn3
+{
+    width: 65%;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 5px 1px #0d8bf2;
+    border-radius: 30px;
+    border: 2px solid #0d8bf2;
+}
+
+.chech-box
+{
+    margin: 30px 10px 0;
+}
+
+#login
+{
+    left: 50px;
+}
+#register
+{
+    left: 450px;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.fadeIn{
+    color: red;
+    font-weight: bold;
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+}
+.button-box :hover{
+    background-color: slategray;
+    display: relative;
+    position: relative;
+    border-radius: 30px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

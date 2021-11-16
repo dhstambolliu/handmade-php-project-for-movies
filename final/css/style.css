@@ -1,0 +1,243 @@
+
+.header-fixed .header-limiter {
+	width: 100%;
+	text-align: center;
+}
+
+.header-fixed .header-limiter h1 {
+	float: left;
+	font: bold 45px Cookie, Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	margin: 0;
+}
+.header-fixed .header-limiter h1 span {
+	color: #0d8bf2;
+}
+
+.header-fixed .header-limiter nav {
+	font:16px Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	float: center;
+}
+.header-fixed .header-limiter nav a{
+	display: inline-block;
+	padding: 0 6px;
+	text-decoration:none;
+	color: #ffffff;
+}
+
+body{
+    background-image: url("sfond.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+  overflow: hidden;
+  background-color:black;
+}
+
+.navbar a.active {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;  
+  border: none;
+  padding: 8px 1px;
+  background-color: inherit;
+    margin: 0;
+}
+.moviesearch {
+    padding: 5px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid #0d8bf2;
+    background: white;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+}
+.search_button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 2px solid #0d8bf2;
+    color: white;
+    background-color: black;
+}
+::placeholder{
+    color: gray;
+    text-align: center;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #00bbbb;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: teal;
+    color: black;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  text-decoration: none;
+  text-align: left;
+    color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: #00bbbb;
+}
+
+.dropdown:hover .dropdown-content {
+  display: table-column;
+}
+
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+.geeks { 
+                border-right:hidden; 
+            } 
+            .gfg { 
+                border-collapse:separate; 
+                border-spacing:0 15px; 
+            }
+
+table, tr{
+    font-size: 14px;
+    box-shadow: 0 0 20px 1px teal;
+}
+td:hover{
+    background-color: teal;
+    color: white;
+}
+a{
+    color: currentColor;
+    display: inline-block;
+    text-decoration: none;
+}
+button, td{
+color: black;
+    box-shadow: 0 0 40px 1px black;
+}
+button :hover{
+    color: white;
+    cursor: pointer;
+}
+@-webkit-keyframes spinner5 {
+    from,15% { -webkit-transform: rotateY(0deg);    }
+    to       { -webkit-transform: rotateY(-360deg); }
+  }
+
+  @keyframes spinner5 {
+    from,15% {
+      -moz-transform: rotateY(0);
+      -ms-transform: rotateY(0);
+      transform: rotateY(0);
+    }
+
+    to {
+      -moz-transform: rotateY(-360deg);
+      -ms-transform: rotateY(-360deg);
+      transform: rotateY(-360deg);
+    }
+  }
+#spinner {
+    -webkit-animation-name: spinner5;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 300s;
+
+    animation-name: spinner5;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+.page{
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: darkslategray;
+    display: inline-block;
+    font-weight: bold;
+    box-shadow: 0 0 40px 1px teal;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+.zoom:hover {
+    transform: scale(1.1);
+    -webkit-transition: scale(1.1);
+    -ms-transform: scale(1.1);
+    cursor: pointer;
+}
+.copyright {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+      .btnnn {
+  color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: darkslategray;
+    display: inline-block;
+    font-weight: bold;
+    box-shadow: 0 0 40px 1px teal;
+}
+
+.active, .btnnn:hover {
+  background-color: black;
+  color: mediumseagreen;
+}

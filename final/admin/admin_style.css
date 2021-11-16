@@ -1,0 +1,241 @@
+body {
+     background-color: white;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 190px;
+     height: 705px;
+     color: black;
+}
+ .table {
+     border-radius: 15px;
+     margin-left: 80px;
+     position:absolute;
+     top: 10px;
+     left: 80px;
+     background: white;
+     border: 1px solid #1abc9c;
+}
+ .table1 {
+     border-radius: 20px;
+     margin-left: 200px;
+     position:absolute;
+     width: 1120px;
+     top: 5px;
+     left: 28px;
+     background: #1abc9c;
+     color: white;
+     font-weight: bold;
+     font-size: 18px;
+     border: 1px solid #1abc9c;
+}
+ .table2 {
+     border-radius: 15px;
+     margin-left: 5px;
+     position:relative;
+     top: 10px;
+     background: white;
+     border: 1px solid #1abc9c;
+}
+ .table3 {
+     border-radius: 15px;
+     margin-left: 100px;
+     position:relative;
+     top: 10px;
+     background: white;
+     border: 1px solid #1abc9c;
+}
+ .container{
+     width: 600px;
+     border-radius: 15px;
+     margin: 30px 0;
+     position:absolute;
+     background: white;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ .container{
+     background-color: transparent;
+     text-align: center;
+}
+ .container-fluid {
+     width: 100%;
+     padding-right: -15px;
+     padding-left: 15px;
+     margin-right: -32px;
+     margin-left: 200px;
+}
+ body {
+     font-family: 'Montserrat', sans-serif;
+     background-color: #eee;
+}
+/* navbar */
+ .sidebar {
+     height: 100vh;
+     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .9)), url(images/img1.jpeg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     box-shadow: 5px 7px 25px #999;
+}
+ .bottom-border {
+     border-bottom: 1px groove #eee;
+}
+ .sidebar-link {
+     transition: all .4s;
+}
+ .sidebar-link:hover {
+     background-color: #444;
+     border-radius: 5px;
+}
+ .current {
+     background-color: #f44336;
+     border-radius: 7px;
+     box-shadow: 2px 5px 10px #111;
+     transition: all .3s;
+}
+ .current:hover {
+     background-color: #f66436;
+     border-radius: 7px;
+     box-shadow: 2px 5px 20px #111;
+     transform: translateY(-1px);
+}
+ .search-input {
+     background: transparent;
+     border: none;
+     border-radius: 0;
+     border-bottom: 2px solid #999;
+     transition: all .4s;
+}
+ .search-input:focus {
+     background: transparent;
+     box-shadow: none;
+     border-bottom: 2px solid #dc3545;
+}
+ .search-button {
+     border-radius: 50%;
+     padding: 10px 16px;
+     transition: all .4s;
+}
+ .search-button:hover {
+     background-color: #eee;
+     transform: translateY(-1px);
+}
+ .icon-parent {
+     position: relative;
+}
+ .icon-bullet::after {
+     content: "";
+     position: absolute;
+     top: 7px;
+     left: 15px;
+     height: 12px;
+     width: 12px;
+     background-color: #f44336;
+     border-radius: 50%;
+}
+ @media (max-width: 768px) {
+     .sidebar {
+         position: static;
+         height: auto;
+    }
+     .top-navbar {
+         position: static;
+    }
+}
+/* end of navbar */
+/* cards */
+ .card-common {
+     box-shadow: 1px 2px 5px #999;
+     transition: all .4s;
+}
+ .card-common:hover {
+     box-shadow: 2px 3px 15px #999;
+     transform: translateY(-1px);
+}
+/* end of cards */
+/* task list */
+ .task-border {
+     border-left: 3px solid #f66436;
+}
+ .form-style-5{
+     max-width: 800px;
+     padding: 10px 20px;
+     background: #f4f7f8;
+     margin: 20px auto;
+     padding: 30px;
+     background: #f4f7f8;
+     border-radius: 8px;
+     font-family: Georgia, "Times New Roman", Times, serif;
+}
+ .form-style-5 fieldset{
+     border: none;
+}
+ .form-style-5 legend {
+     font-size: 1.4em;
+     margin-bottom: 1px;
+}
+ .form-style-5 label {
+     display: block;
+}
+ .form-style-5 input[type="text"], .form-style-5 input[type="date"], .form-style-5 input[type="datetime"], .form-style-5 input[type="email"], .form-style-5 input[type="number"], .form-style-5 input[type="search"], .form-style-5 input[type="time"], .form-style-5 input[type="url"], .form-style-5 textarea, .form-style-5 select {
+     font-family: Georgia, "Times New Roman", Times, serif;
+     background: rgba(255,255,255,.1);
+     border: none;
+     border-radius: 4px;
+     font-size: 15px;
+     padding: 5px;
+     width: 100%;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     background-color: #e8eeef;
+     color:black;
+     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+     box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+     margin-bottom: 3px;
+}
+ .form-style-5 input[type="text"]:focus, .form-style-5 input[type="date"]:focus, .form-style-5 input[type="datetime"]:focus, .form-style-5 input[type="email"]:focus, .form-style-5 input[type="number"]:focus, .form-style-5 input[type="search"]:focus, .form-style-5 input[type="time"]:focus, .form-style-5 input[type="url"]:focus, .form-style-5 textarea:focus, .form-style-5 select:focus{
+     background: #d2d9dd;
+}
+ .form-style-5 select{
+     -webkit-appearance: menulist-button;
+     height:35px;
+}
+ .form-style-5 .number {
+     background: #1abc9c;
+     color: #fff;
+     height: 30px;
+     width: 100px;
+     display: inline-block;
+     font-size: 0.8em;
+     margin-right: 4px;
+     line-height: 30px;
+     text-align: center;
+     text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+     border-radius: 15px 15px 15px 0px;
+}
+ .form-style-5 input[type="submit"], .form-style-5 input[type="button"] {
+     position: relative;
+     display: block;
+     padding: 19px 39px 18px 39px;
+     color: #FFF;
+     margin: 0 auto;
+     background: #1abc9c;
+     font-size: 18px;
+     text-align: center;
+     font-style: normal;
+     width: 50%;
+     border: 1px solid #16a085;
+     border-width: 1px 1px 3px;
+     margin-bottom: 10px;
+}
+ .form-style-5 input[type="submit"]:hover, .form-style-5 input[type="button"]:hover {
+     background: #109177;
+}
+ .upload_movies_form{
+     width: 1100px;
+     position:relative;
+}
+ 
